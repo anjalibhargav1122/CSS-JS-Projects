@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Length Converter</title>
+    <link rel="stylesheet" href="lengthConverter.css">
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            border: none;
+            outline: none;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <h1>Length Converter</h1>
+        <div class="converter">
+            <div class="input">
+                <input type="text" placeholder="Input" id="input">
+                <select name="" id="inputType">
+                    <option value="meter">Meter</option>
+                    <option value="kilometer">Kilometer</option>
+                    <option value="centimeter">Centimeter</option>
+                </select>
+            </div>
+            <span></span>
+            <div class="result">
+                <input type="text" placeholder="Result" id="result">
+                <select name="" id="resultType">
+                    <option value="meter">Meter</option>
+                    <option value="kilometer">Kilometer</option>
+                    <option value="centimeter">Centimeter</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <script src="lengthConverter.js"></script>
+
+</body>
+
+</html>
